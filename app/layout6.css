@@ -1,0 +1,307 @@
+.container {
+    width:90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ヘッダー */
+header {
+    padding: 27px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Archivo Black", serif;
+    font-style: normal;
+    text-decoration: none;
+    color: blue;
+}
+.header_menu li{
+    margin-left: 70px;
+    list-style: none;
+}
+.header_menu li a{
+    text-decoration: none;
+    transition: .3s;
+    color: black;
+    font-weight: 700;
+}
+.header_menu li a:hover{
+    color:#80BA4A;
+    transition: .3s;
+}
+
+@media only screen and (max-width:768px){
+    header .container{
+        justify-content: center;
+    }
+    .header_menu li{
+        margin: 20px 12px 0;
+    }
+}
+/* メイン */
+#hero{
+    background-image: url(../public/photo1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+#hero::before {
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 1;
+}
+.hero_inner {
+    z-index: 2;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.hero_inner p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.hero_inner h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width:768px){
+    #hero {height:460px;}
+    .hero_inner p {
+        font-size: 18px;
+    }
+    .hero_inner h1 {
+        font-size: 20px;
+    }
+}
+/* イントロダクション */
+#intro{
+    margin-bottom: 120px;
+    font-family: "Noto Sans JP", serif;
+}
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    color:  rgb(9, 230, 255);
+    font-family: "Archivo Black", serif;
+    margin-bottom: 20px;
+}
+.container h2{
+    display: inline-block;
+    border-bottom:double 6px  rgb(9, 230, 255);
+}
+.column-2{
+    width: 48%;
+}
+.text{
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Noto Sans JP", serif;
+}
+.text span{
+    font-weight: bold;
+    color: rgb(239, 66, 39);
+}
+.intro-img{
+    background-image: url(../public/icon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+}
+.heading{
+    font-family: "Dancing Script", serif;
+    font-size: 200px;
+    font-weight: 700;
+    color:  rgb(9, 230, 255);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-20%);
+}
+@media only screen and (max-width:768px){
+    .column-2{
+        width: 100%;
+    }
+    .text{
+        line-height: 1.7;
+        font-size: 15px;
+    }
+    .intro-img{
+        margin-top: 30px;
+    }
+    .heading{font-size: 120px;}
+}
+/* スケジュール */
+#schedule{
+    margin-bottom: 120px;
+}
+.schedule_inner{
+    margin-bottom: 40px;
+}
+.column-40{
+    width: 40%;
+}
+.column-55{
+    width: 55%;
+}
+#schedule img{
+    border-radius: 20px;
+}
+#schedule h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.column-55 ul{
+    list-style: none;
+}
+.column-55 li{
+    margin-bottom: 10px;
+    border-bottom: 3px dashed rgb(213, 218, 215);
+}
+.heading2{
+    font-family: "Dancing Script", serif;
+    font-size: 200px;
+    font-weight: 700;
+    color:  rgb(9, 230, 255);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-20%);
+}
+
+@media only screen and (max-width:768px){
+    .column-40{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .column-55{
+        width: 100%;
+    }
+    #schedule h3{
+        font-size: 17px;
+    }
+    .heading2{
+        font-size: 120px;
+        transform: translateY(-46%);
+    }
+}
+
+/* 更新情報 */
+#newinfo{
+    margin-bottom: 120px;
+}
+.newinfo_inner{
+    margin-bottom: 40px;
+}
+.update_pho{
+    width: 40%;
+}
+.update_info{
+    width: 55%;
+}
+#newinfo img{
+    border-radius: 20px;
+}
+#newinfo h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.update_info ul{
+    list-style: none;
+}
+.update_info li{
+    margin-bottom: 10px;
+    border-bottom: 3px dashed rgb(213, 218, 215);
+}
+.update_info li a{
+    text-decoration: none;
+    color: #000000;
+}
+@media only screen and (max-width:768px){
+    .update_pho{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .update_info{
+        width: 100%;
+    }
+    #newinfo h3{
+        font-size: 17px;
+    }
+}
+/* メニュー */
+#menu{
+    margin-bottom: 70px;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    margin-bottom: 10px;
+    border-bottom: 3px dashed rgb(213, 218, 215);
+}
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ボトム   */
+.column-a a img{
+    width: 100%;
+    border-radius: 20px;
+}
+.column-b a img{
+    width: 100%;
+    border-radius: 20px;
+}
+.column-c a img{
+    width: 100%;
+    border-radius: 20px;
+}
+.column-d a img{
+    width: 100%;
+    border-radius: 20px;
+}
+.flex3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+footer{
+    text-align: center;
+    margin: 90px 0;
+}
+.copyright{
+    font-size: 12px;
+    margin-top: 40px;
+}
+@media only screen and (max-width:768px){
+    #menu{justify-content: center;}
+}

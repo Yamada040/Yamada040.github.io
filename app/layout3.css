@@ -1,0 +1,106 @@
+.page3box1{
+  width:75%;
+  height: 200px;
+  padding:0 50px 100px 10px;
+  margin:20px 50px 0 20px;
+  background:#dbd6d6;
+  border-bottom: solid 6px #ffffff;
+  border-radius: 9px;
+  color:#000000;
+  font-size: 20px;
+}
+.page3box1 h1{
+  font-size: 16px;
+  border-bottom: 3px dashed #000;
+ }
+ .page3contents ul{
+  list-style: none;
+  padding:0;
+  font-size: 16px;
+ }
+ .page3contents li{
+  border-bottom: dotted 3px #000;
+  margin:10px 0 0 10px;
+ }
+ .page3contents a{
+  text-decoration: none;
+  color: #000;
+}
+.inline{
+  display:flex;
+}
+.inline span{
+  padding-left:10px ;
+}
+.pull{
+  padding-left: 15%;
+}
+.pull ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.pull nav > ul >li{
+  display: inline-block;
+  position: relative;
+}
+.pull a {
+  display: block;
+  color: #333;
+  color: purple;
+}
+.pull ul ul {
+  display:none ;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  top: 100%;
+  left: 0;
+  position: absolute;
+}
+.pull ul ul li {
+  width: 400px;
+}
+
+.pull ul ul a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.pull li:hover > ul {
+  display: block;
+}
+
+.pull ul ul li:hover {
+  background-color: #21eee4;
+}
+.page3box1 p{
+  font-size: 16px;
+  padding-left: 1%;
+}
+.page3box2{
+  width:75%;
+  height: 200px;
+  padding:0 50px 220px 10px;
+  margin:20px 50px 0 20px;
+  background:#dbd6d6;
+  border-bottom: solid 6px #ffffff;
+  border-radius: 9px;
+  color:#000000;
+  font-size: 20px;
+}
+.page3box2 h2{
+  font-size: 16px;
+  border-bottom: 3px dashed #000;
+ }
+ .page3box2contents ul{
+  list-style: none;
+  padding:0;
+  font-size: 16px;
+ }
+ .page3box2contents li{
+  border-bottom: dotted 3px #000;
+  margin:10px 0 0 10px;
+ }
+ .page3box2contents a{
+  text-decoration: none;
+  color: #000;
+}

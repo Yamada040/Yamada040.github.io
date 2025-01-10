@@ -1,0 +1,22 @@
+.player{
+    display: flex;
+    margin:0 1%;
+}
+.player p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10% 10% 10%;
+}
+.kaityou{
+    padding-right: 3%;
+}
+.hukukaityou1{
+    padding-right: 3%;
+}
+.hukukaityou2{
+    padding-right: 3%;
+}
+.kaikei{
+    padding-right: 3%;
+}

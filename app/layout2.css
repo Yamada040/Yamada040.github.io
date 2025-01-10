@@ -1,0 +1,90 @@
+.page2box1{
+    width:1200px;
+    height: 200px;
+    padding:0 50px 100px 10px;
+    margin:20px 50px 0 20px;
+    background:#dbd6d6;
+    border-bottom: solid 6px #ffffff;
+    border-radius: 9px;
+    color:#000000;
+    font-size: 20px;
+}
+.page2box1 h1{
+    font-size: 15px;
+    border-bottom: 3px dashed #000;
+   }
+.contents{
+    font-size: 15px;
+}
+.page2box2{
+    width: 88%;
+    padding:0% 3.5% 80% 1%;
+    margin:20px 50px 0 15px;
+    background:#dbd6d6;
+    border-bottom: solid 6px #ffffff;
+    border-radius: 9px;
+    color:#000000;
+    font-size: 20px;
+    position: relative;
+}
+.page2box2 h2{
+    font-size: 15px;
+    border-bottom: 3px dashed #000;
+}
+table{
+    width: 40%;
+    height: 70%;
+    position:absolute;
+}
+table,th,td{
+    font-size: 16.5px;
+    border: 3px solid #000;
+    background-color:#ffffff;
+    margin:0 0 0 58%;
+}
+td{
+    padding:6% 5% 4.5% 15%;
+    width: 450px;
+    font-weight:bold;
+}
+th{
+    padding:0;
+}
+.pic1{
+    position: absolute;
+    top: 5%;
+}
+.pic2{
+    position: absolute;
+    top: 28%;
+}
+.pic3{
+    position: absolute;
+    top: 51%;
+}
+.pic4{
+    position: absolute;
+    top: 74%;
+}
+.pic5{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.pic6{
+    position: absolute;
+    top: 28%;
+    left: 30%;
+}
+.pic7{
+    position: absolute;
+    top: 51%;
+    left: 30%;
+}
+.pic8{
+    position: absolute;
+    top: 74%;
+    left: 30%;
+}
+
+
