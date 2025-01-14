@@ -39,11 +39,11 @@ export default function Page2(){
           <div className="flex2">
             <div className="play">
               <h3><span className="span">会長</span></h3>
-              <p>氏名</p>
-              <p>出身高校・チーム</p>
-              <p>ポジション</p>
-              <p>趣味</p>
-              <p>特徴</p>
+              <p>氏名  杉田 聡一朗</p>
+              <p>出身高校 三田学園高等部</p>
+              <p>ポジション CB/FW/GK</p>
+              <p>趣味 ポーカー</p>
+              <p>特徴 留年多浪顔</p>
             </div>
             <div className="kaityou-img"></div>
           </div>
@@ -51,11 +51,11 @@ export default function Page2(){
           <div className="flex2">
             <div className="play">
               <h3><span className="span">副会長</span></h3>
-              <p>氏名</p>
-              <p>出身高校・チーム</p>
-              <p>ポジション</p>
-              <p>趣味</p>
-              <p>特徴</p>
+              <p>氏名 渡邊 直人</p>
+              <p>出身高校 湘南高校</p>
+              <p>ポジション OMF/WG/SB</p>
+              <p>趣味 飲み会</p>
+              <p>特徴 イケメン飲みベ高男</p>
             </div>
             <div className="huku1-img"></div>
           </div>
@@ -63,11 +63,11 @@ export default function Page2(){
           <div className="flex2">
             <div className="play">
               <h3><span className="span">副会長</span></h3>
-              <p>氏名</p>
-              <p>出身高校・チーム</p>
-              <p>ポジション</p>
-              <p>趣味</p>
-              <p>特徴</p>
+              <p>氏名 浅田 幹太</p>
+              <p>出身高校 市立西宮高校</p>
+              <p>ポジション CF</p>
+              <p>趣味 ソロウォーク</p>
+              <p>特徴 ヴィッセル神戸現地観戦ニキ</p>
             </div>
             <div className="huku2-img"></div>
           </div>
@@ -75,11 +75,11 @@ export default function Page2(){
           <div className="flex2">
             <div className="play">
               <h3><span className="span">会計</span></h3>
-              <p>氏名</p>
-              <p>出身高校・チーム</p>
-              <p>ポジション</p>
-              <p>趣味</p>
-              <p>特徴</p>
+              <p>氏名 小田 風太</p>
+              <p>出身高校 静岡高校</p>
+              <p>ポジション DMF</p>
+              <p>趣味 Mrs. GREEN APPLE</p>
+              <p>特徴 真面目飛び級院生男</p>
             </div>
             <div className="kaikei-img"></div>
           </div>
