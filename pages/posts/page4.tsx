@@ -99,16 +99,16 @@ export default function Page2(){
       <footer>
         <div className="flex3 container">
             <div className="column-a">
-              <Link href="https://x.com/osakaunivsoccer?s=11&t=JezDDOZeLsmWzb2O8fGg7w"><Image src="/X.jpg" alt="X link" width={50} height={50} layout="fixed"/></Link>
+              <Link href="https://x.com/osakaunivsoccer?s=11&t=JezDDOZeLsmWzb2O8fGg7w"><Image src="/X.jpg" alt="" width={50} height={50} layout="fixed"/></Link>
             </div>
             <div className="column-b">
-            <Link href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1"><Image src="/insta.png" alt="instagram link" width={50} height={50} layout="fixed"/></Link>
+            <Link href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1"><Image src="/insta.png" alt="" width={50} height={50} layout="fixed"/></Link>
             </div>
             <div className="column-c">
-              <Link href="/"><Image src="/tiktok.png" alt="tiktok" width={50} height={50} layout="fixed"/></Link>
+              <Link href="/"><Image src="/tiktok.png" alt="" width={50} height={50} layout="fixed"/></Link>
             </div>
             <div className="column-d">
-              <Link href="/"><Image src="/bereal.png" alt="bereal" width={50} height={50} layout="fixed"/></Link>
+              <Link href="/"><Image src="/bereal.png" alt="" width={50} height={50} layout="fixed"/></Link>
             </div>
         </div>
        <Link href="/" className="logo">SOCCER DOUKOU</Link>
