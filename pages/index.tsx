@@ -2,6 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import "/app/layout6.css";
+import "/app/layout7.css";
+import "/app/layout8.css";
+import "/app/layout9.css";
+import "/app/layout10.css";
 export default function Home(){
     return(
      <>
