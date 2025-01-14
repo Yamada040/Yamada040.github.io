@@ -8,19 +8,10 @@ export default function Home(){
       <Head>
        <meta charSet="UTF-8"/>
        <title>大阪大学サッカー同好会</title>
-       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-       <link rel="preconnect" href="https://fonts.gstatic.com"/>
-       <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet"/>
-       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-       <link rel="preconnect" href="https://fonts.gstatic.com"/>
-       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"/>
-       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-       <link rel="preconnect" href="https://fonts.gstatic.com" />
-       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet"/>
       </Head>
       <header>
          <div className="container flex">
-          <a href="/" className="logo">SOCCER DOUKOU</a>
+          <Link href="/" className="logo">SOCCER DOUKOU</Link>
             <nav>
              <ul className="header_menu flex">
               <li><Link href="/">トップページ</Link></li>
@@ -91,11 +82,11 @@ export default function Home(){
              <div className="update_info">
               <h3>Instagram Post</h3>
               <ul className="text">
-                <li><a href="https://www.instagram.com/p/DDwF24-vJvu/?igsh=MWlyYmowaW5zNmEx">2024/12/18 忘年会</a></li>
-                <li><a href="https://www.instagram.com/p/DDwFRFzv_A6/?igsh=MXVjcjFtdmNvOTA0Yw==">2024/11,12 リーグ戦結果</a></li>
-                <li><a href="https://www.instagram.com/p/DCNoWBKSqbV/?igsh=cnBoMGJobWVlaWpi">2024/11/09 秋合宿</a></li>
-                <li><a href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1">2024/11/03 マチカネ祭</a></li>
-                <li><a href="https://www.instagram.com/p/C_jyvcAvBpM/?igsh=MXFjdjQ3cjR0c2ZwNg==">2024/09/04 関関同立京阪神杯</a></li>
+                <li><Link href="https://www.instagram.com/p/DDwF24-vJvu/?igsh=MWlyYmowaW5zNmEx">2024/12/18 忘年会</Link></li>
+                <li><Link href="https://www.instagram.com/p/DDwFRFzv_A6/?igsh=MXVjcjFtdmNvOTA0Yw==">2024/11,12 リーグ戦結果</Link></li>
+                <li><Link href="https://www.instagram.com/p/DCNoWBKSqbV/?igsh=cnBoMGJobWVlaWpi">2024/11/09 秋合宿</Link></li>
+                <li><Link href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1">2024/11/03 マチカネ祭</Link></li>
+                <li><Link href="https://www.instagram.com/p/C_jyvcAvBpM/?igsh=MXFjdjQ3cjR0c2ZwNg==">2024/09/04 関関同立京阪神杯</Link></li>
              </ul>
              </div>
          </div>
@@ -104,37 +95,31 @@ export default function Home(){
         <div className="heading2">No.1</div>
          <h2 className="title pop">menu</h2>
          <ul className="menu text">
-            <li><a href="/">トップページ</a></li>
-            <li><a href="/posts/page2">活動内容</a></li>
-            <li><a href="/posts/page3">活動情報</a></li>
-            <li><a href="/posts/page4">選手紹介</a></li>
-            <li><a href="/posts/page5">過去実績</a></li>
+            <li><Link href="/">トップページ</Link></li>
+            <li><Link href="/posts/page2">活動内容</Link></li>
+            <li><Link href="/posts/page3">活動情報</Link></li>
+            <li><Link href="/posts/page4">選手紹介</Link></li>
+            <li><Link href="/posts/page5">過去実績</Link></li>
          </ul>
          </section>
-         <div className="flex container">
-            <div className="column-a"></div>
-            <div className="column-b"></div>
-            <div className="column-c"></div>
-            <div className="column-d"></div>
-        </div>
       </main>
 
       <footer>
         <div className="flex3 container">
             <div className="column-a">
-              <a href="https://x.com/osakaunivsoccer?s=11&t=JezDDOZeLsmWzb2O8fGg7w"><Image src="/X.jpg" alt="" width={50} height={50} layout="intrinsic"/></a>
+              <Link href="https://x.com/osakaunivsoccer?s=11&t=JezDDOZeLsmWzb2O8fGg7w"><Image src="/X.jpg" alt="" width={50} height={50} layout="intrinsic"/></Link>
             </div>
             <div className="column-b">
-            <a href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1"><Image src="/insta.png" alt="" width={50} height={50} layout="intrinsic"/></a>
+            <Link href="https://www.instagram.com/p/DCBQiDhvTKO/?igsh=aWZucDFqb2U1NGo1"><Image src="/insta.png" alt="" width={50} height={50} layout="intrinsic"/></Link>
             </div>
             <div className="column-c">
-              <a href="/"><Image src="/tiktok.png" alt="" width={50} height={50} layout="intrinsic"/></a>
+              <Link href="/"><Image src="/tiktok.png" alt="" width={50} height={50} layout="intrinsic"/></Link>
             </div>
             <div className="column-d">
-              <a href="/"><Image src="/bereal.png" alt="" width={50} height={50} layout="intrinsic"/></a>
+              <Link href="/"><Image src="/bereal.png" alt="" width={50} height={50} layout="intrinsic"/></Link>
             </div>
         </div>
-       <a href="/" className="logo">SOCCER DOUKOU</a>
+       <Link href="/" className="logo">SOCCER DOUKOU</Link>
        <div className="copyright">© SOCCER DOUKOU Inc.</div>
       </footer>
      </>
